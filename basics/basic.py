@@ -22,6 +22,8 @@ print(x,y,z)
 print(x+z)
 #orangegames
 
+#basics of python 
+
 #global varable
 def func():
     print("global"+x)
