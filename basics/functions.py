@@ -71,3 +71,8 @@ mytripler = myfunc(3)
 
 print(mytripler(11))
 
+""" 
+9
+16
+33
+"""
