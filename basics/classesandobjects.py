@@ -46,3 +46,16 @@ my name is vasanth
 <__main__.Person object at 0x7f3d8d87d8e0>
 vasanth
 """
+#inheritance
+
+class Student(Person):
+  def __init__(self, name, age, year):
+    super().__init__(name, age)
+    self.graduationyear = year
+
+  def welcome(self):
+    print("Welcome", self.name, "to the class of", self.graduationyear) 
+
+s1=Student("Amulya",18,2038)
+s1.welcome()
+#Welcome Amulya to the class of 2038
